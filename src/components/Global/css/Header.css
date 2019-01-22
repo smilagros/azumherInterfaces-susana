@@ -1,0 +1,38 @@
+
+.Logo img {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.Headere {
+  background-color: #775e5eab;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);*/
+  color: white;
+}
+             
+/*
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+.Menu{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Menu li{
+  display: inline-block;
+  padding-right: 18px;
+}

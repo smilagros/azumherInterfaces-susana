@@ -11,6 +11,7 @@
     "@progress/kendo-react-intl": "^2.6.1",
     "bootstrap": "^4.2.1",
     "classnames": "^2.2.6",
+    "eslint-restricted-globals": "^0.2.0",
     "faker": "^4.1.0",
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
