@@ -1,0 +1,16 @@
+.SearchForm {
+  margin: 1rem auto;
+  max-width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchForm input {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 64em) {
+  .SearchForm { max-width: 50vw; }
+}

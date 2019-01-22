@@ -1,27 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Route,Router,IndexRoute,browserHistory,Link, Switch, Redirect } from 'react-router-dom';
+import Menu from './components/Menu';
 import './App.css';
+import Orders from './components/orders/Orders'
+import Layout from './views/Layout';
+import Home from './components/Home';
+import OrdenService from './components/OrdenService';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+	render() {
+			return (
+				<div className="App">
+				<Orders/>
+				</div>
+	    );
   }
 }
 
